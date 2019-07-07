@@ -6,7 +6,9 @@ In this project I utilize the famous [Iris Flower Data Set](http://en.wikipedia.
 
 ## Description
 
-Here, the machine learning Model -  Support vector Machines is implemented.
+Here, the machine learning Model -  Support vector Machines is implemented. I am using seaborn and matplotlib for data visualisation and exploratory data analysis. The data is divided into 70 to 30 ratio for training and testing the model.
 
 
 ## Result and Conclusions
+
+The model is evaluated using confusion matrix and classification report. The parameters were tuned further to achieve higher accuracy using GridSearchCV and an average accuracy of 98% was achieved for the test data set.
